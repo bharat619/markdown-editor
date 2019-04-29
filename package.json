@@ -1,0 +1,33 @@
+{
+  "name": "firesale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.4",
+    "iohook": "^0.4.5",
+    "marked": "^0.6.2"
+  },
+  "iohook": {
+    "targets": [
+      "node-59",
+      "electron-57",
+      "electron-69"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
